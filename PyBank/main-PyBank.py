@@ -57,3 +57,19 @@ with open(output_path, 'w', newline ='') as csvfile:
     csvwriter.writerow([f'Average Change: ${round(average(net_revenue),2)}'])
     csvwriter.writerow([f'The greatest increase in profits:  Feb-2012 ${net_revenue[0]}'])
     csvwriter.writerow([f'The greatest decrease in profits:  Sept-2013 ${net_revenue[len(net_revenue)-1]}'])
+
+    
+ 
+__________________________________________________________________________________________________________________________________________________________________________
+
+
+    
+   Financial Analysis
+----------------------------
+Total Months: 86
+Total: $38382578
+Average  Change: $-2315.12
+Greatest Increase in Profits: Feb-2012 ($1926159)
+Greatest Decrease in Profits: Sep-2013 ($-2196167)
+ 
+    
